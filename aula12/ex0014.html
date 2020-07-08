@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dias da Semana</title>
+</head>
+<h1>Dias da semana</h1>
+<body>
+    <input type="text" name="day" id="day">
+    <input type="button" value="enviar" onclick="checkWeek()">
+    <div id="display">
+
+    </div>
+
+    <script>
+        function checkWeek() {
+            const day = window.document.getElementById('day').value;
+            const result = window.document.getElementById('display')
+            if( day == 'Domingo') {
+                result.innerText = 'Hoje é domingo'
+            }
+            else if ( day == 'Segunda') {
+                result.innerText = 'Hoje é segunda'
+            }
+            else if (day == 'Terça') {
+                result.innerText = 'Hoje é terça'
+            }
+            else if ( day == 'Quarta'){
+                result.innerText = 'Hoje é quarta'
+            }
+            else if ( day == 'Quinta') {
+                result.innerText = 'Hoje é quinta'
+            }
+            else if ( day == 'Sexta') {
+                result.innerText = 'Hoje é sexta'
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
