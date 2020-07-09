@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de passos</title>
+</head>
+<body>
+    <header>
+    <h1>Vamos contar</h1>
+    </header>
+    <section>
+      <div id="dados">
+      <p>Início: <input type="number" name="inicio" id="txti" placeholder="Digite o número inicial"></p>       
+      <p> Fim:<input type="number" name="fim" id="txtf" placeholder="Digite o número final"></p>               
+      <p> Pular: <input type="number" name="passo" id="txtp" placeholder="Digite o número para pular"></p>
+      <input type="button" value="Contar" onclick="contar()">
+      </div>
+      <div id="res">
+        Iniciando contagem...
+      </div>
+    </section>
+    <footer>
+    <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
